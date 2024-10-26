@@ -1,0 +1,91 @@
+{
+    "color": {
+        "primary": {
+            "100": {
+                "value": "#C4EDCB",
+                "darkValue": "#0C2710"
+            },
+            "200": {
+                "value": "#89DC97",
+                "darkValue": "#174F20"
+            },
+            "300": {
+                "value": "#4FC562",
+                "darkValue": "#237631"
+            },
+            "400": {
+                "value": "#2F9E41"
+            },
+            "500": {
+            "value": "#237631",
+                "darkValue": "#4FC562"
+            },
+            "600": {
+                "value": "#174F20",
+                "darkValue": "#89DC97"
+            },
+            "700": {
+                "value": "#0C2710",
+                "darkValue": "#C4EDCB"
+            }
+        },
+        "secondary": {
+            "100": {
+                "value": "#F9D2D3",
+                "darkValue": "#470607"
+            },
+            "200": {
+                "value": "#EC9394",
+                "darkValue": "#760A0B"
+            },
+            "300": {
+                "value": "#D74244",
+                "darkValue": "#A50D10"
+            },
+            "400": {
+                "value": "#C90C0F"
+            },
+            "500": {
+                "value": "#A50D10",
+                "darkValue": "#D74244"
+            },
+            "600": {
+                "value": "#760A0B",
+                "darkValue": "#EC9394"
+            },
+            "700": {
+                "value": "#470607",
+                "darkValue": "#F9D2D3"
+            }
+        },
+        "neutral": {
+            "100": {
+                "value": "#FFFFFF",
+                "darkValue": "#1F1F1F"
+            },
+            "200": {
+                "value": "#F3F3F3",
+                "darkValue": "#333333"
+            },
+            "300": {
+                "value": "#BFBFBF",
+                "darkValue": "#595959"
+            },
+            "400": {
+                "value": "#8C8C8C"
+            },
+            "500": {
+                "value": "#595959",
+                "darkValue": "#BFBFBF"
+            },
+            "600": {
+                "value": "#333333",
+                "darkValue": "#F3F3F3"
+            },
+            "700": {
+                "value": "#1F1F1F",
+                "darkValue": "#FFFFFF"
+            }
+        }
+    }
+}

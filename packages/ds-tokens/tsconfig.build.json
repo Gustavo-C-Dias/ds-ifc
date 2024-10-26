@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.build.json",
+  "compilerOptions": {
+    "declarationDir": "./lib/typescript",
+    "module": "CommonJS",
+    "declaration": true,
+    "emitDeclarationOnly": true
+  },
+  "include": ["src/**/*.ts"]
+}
+

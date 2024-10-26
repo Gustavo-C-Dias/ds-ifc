@@ -1,0 +1,29 @@
+{
+    "transition": {
+        "duration": {
+            "1": {
+                "value": "100ms"
+            },
+            "2": {
+                "value": "200ms"
+            },
+            "4": {
+                "value": "400ms"
+            }
+        },
+        "type": {
+            "ease-in-out": {
+                "value": "ease-in-out"
+            },
+            "ease-in": {
+                "value": "ease-in"
+            },
+            "ease-out": {
+                "value": "ease-out"
+            },
+            "linear": {
+                "value": "linear"
+            }
+        }
+    }
+}

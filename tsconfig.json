@@ -1,0 +1,17 @@
+{
+    "extends": "./tsconfig.build.json",
+    "compilerOptions": {
+        "baseUrl": "./packages",
+        "jsx": "react",
+        "paths": {
+            "@ds-ifc/ds-components": ["ds-components/src"],
+            "@ds-ifc/ds-components/*": ["ds-components/src/*"],
+            "@ds-ifc/ds-tokens": ["ds-tokens/src"],
+            "@ds-ifc/ds-tokens/*": ["ds-tokens/src/*"],
+            "@ds-ifc/ds-icons": ["ds-icons/src"],
+            "@ds-ifc/ds-icons/*": ["ds-icons/src/*"],
+            "@ds-ifc/ds-documents": ["ds-documents/src"],
+            "@ds-ifc/ds-documents/*": ["ds-documents/src/*"]
+        }
+    }
+}

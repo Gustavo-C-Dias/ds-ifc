@@ -1,0 +1,54 @@
+import { Meta } from '@storybook/addon-docs';
+import { BorderWidthDocs, BorderRadiusDocs } from './Border'
+
+<Meta title="Tokens/Borda" />
+
+# Bordas
+
+As propriedades de arredondamento e espessura das bordas dos elementos estão diretamente
+relacionadas à sua definição. Essas características ajudam a diferenciar os elementos na
+composição da interface visual, contribuindo para uma estética mais harmoniosa e intuitiva.
+
+## Arredondamento
+
+Esse conceito está relacionado à propriedade `border-radius` do CSS, que permite aplicar um
+estilo visual de arredondamento nos cantos dos elementos. Dependendo do token selecionado,
+podemos ajustar o grau dessa curvatura, tornando o elemento mais ou menos arredondado.
+
+As definições disponíveis são:
+
+#### --border-radius-0-5
+
+<BorderRadiusDocs borderRadius="--border-radius-0-5" />
+
+#### --border-radius-1
+
+<BorderRadiusDocs borderRadius="--border-radius-1" />
+
+#### --border-radius-pill
+
+<BorderRadiusDocs borderRadius="--border-radius-pill" />
+
+#### --border-radius-circle
+
+<BorderRadiusDocs borderRadius="--border-radius-circle" />
+
+## Espessura
+
+Esse conceito está relacionado à propriedade `border-width` do CSS, que permite aplicar uma
+espessura visual nas bordas dos elementos. Dependendo do token selecionado, podemos ajustar
+a espessura da borda, tornando o elemento mais ou menos destacado.
+
+As definições disponíveis são:
+
+#### --border-width-0-25
+
+<BorderWidthDocs borderWidth="--border-width-0-25" />
+
+#### --border-width-0-5
+
+<BorderWidthDocs borderWidth="--border-width-0-5" />
+
+#### --border-width-1
+
+<BorderWidthDocs borderWidth="--border-width-1" />

@@ -1,0 +1,1 @@
+import r from"react";const d={title:"h1",subtitle:"h2",body:"p",detail:"span"},o=({id:e,children:i,variant:t,weight:s})=>{const n=d[t];return r.createElement(n,{id:e,className:`ds-text ds-text-${t} ds-text-font-weight-${s}`},i)};export{o as Text};

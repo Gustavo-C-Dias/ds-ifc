@@ -1,0 +1,50 @@
+import { Meta } from '@storybook/addon-docs';
+import { FontFamilyDocs, FontSizeDocs, FontWeightDocs } from './Font'
+import { TableDocs } from '../../../utils/Table'
+
+<Meta title="Tokens/Font" />
+
+# Fonte
+
+As fontes é uma das principais formas de passar um conteúdo dentro da web, para isso então é importante
+ter uma fonte padronizada que represente a imagem da marca e que seja de fácil legibilidade.
+
+## Família
+
+#### font-family
+
+A família tipográfica Open Sans foi definida com base no guia de marca do IFC.
+
+<TableDocs
+    header={['Token', 'Valor', 'Exemplo']}
+    line={[
+        ['--font-family', 'Open Sans',<FontFamilyDocs />]
+    ]}
+/>
+
+## Tamanho
+
+Tamanhos de fonte que devem ser utilizados de maneira a respeitar a hierarquia da  informação da página.
+
+<TableDocs
+    header={['Token', 'Valor', 'Exemplo']}
+    line={[
+        ['--font-size-1-75', '14px', <FontSizeDocs size="--font-size-1-75" />],
+        ['--font-size-2', '16px', <FontSizeDocs size="--font-size-2" />],
+        ['--font-size-3', '24px', <FontSizeDocs size="--font-size-3" />],
+        ['--font-size-4', '32px', <FontSizeDocs size="--font-size-4" />]
+    ]}
+/>
+
+## Peso
+
+O peso da fonte é um recurso que pode ser utilizado para destacar informações importantes.
+
+<TableDocs
+    header={['Token', 'Valor', 'Exemplo']}
+    line={[
+        ['--font-weight-regular', 'regular', <FontWeightDocs weight="--font-weight-regular" />],
+        ['--font-weight-semibolf', 'Semi Bold', <FontWeightDocs weight="--font-weight-semibold" />],
+        ['--font-weight-bold', 'Bold', <FontWeightDocs weight="--font-weight-bold" />]
+    ]}
+/>
